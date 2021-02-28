@@ -1,0 +1,324 @@
+html,
+body {
+    background-color: white;
+    color: #636b6f;
+    font-family: "Nunito", sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 84px;
+}
+
+.links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+
+main {
+    min-height: 100vh;
+}
+
+/* footer */
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: left;
+    position: relative;
+    width: 100%;
+}
+
+.footerSignature {
+    text-align: center;
+}
+
+footer .row {
+    padding-top: 4.375rem;
+    padding-bottom: 4.375rem;
+}
+
+footer .footer-button {
+    color: white;
+    background-color: pink;
+    padding: 0.8rem 0.4rem;
+    margin-top: 1rem;
+}
+
+footer .footer-button:hover {
+    background-color: white;
+    color: pink;
+}
+
+footer h4 {
+    color: pink;
+}
+
+/* sneakerIcon */
+
+.sneakerIcon {
+    width: 7.5rem;
+    height: 7.5rem;
+}
+
+/* nav */
+nav {
+    /* height: 5vh; */
+}
+nav,
+nav a,
+nav .dropdown-menu,
+nav .dropdown-item:hover {
+    background-color: black;
+    color: pink;
+}
+
+nav li {
+    background-color: white;
+    list-style: none;
+}
+
+.site-header a {
+    color: pink;
+    font-weight: 900;
+}
+
+.nav-link,
+nav .dropdown-item {
+    color: pink;
+}
+
+nav a:hover,
+nav .dropdown-item:hover {
+    color: white;
+}
+
+/* index background */
+
+div.background {
+    background: url(../img/background-image-one.jpg);
+    background-repeat: no-repeat;
+    height: 70vh;
+    background-size: cover;
+    width: 100%;
+    height: 43.75trm;
+    text-align: center;
+    background-position: center center;
+    color: pink;
+}
+
+div.background .btn {
+    border-color: black;
+    color: black;
+    background-color: pink;
+}
+
+div.background .btn:hover {
+    border-color: white;
+    color: white;
+}
+
+/* title */
+.content h1 {
+    color: pink;
+    text-shadow: 3px 3px black;
+}
+
+/* sneaker container */
+.sneakerStoreContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+.sneakerStoreContainer a,
+.sneakerStoreContainer p {
+    color: black;
+}
+
+.sneakerStoreContainer a:hover {
+    color: pink;
+}
+
+/* sneaker show */
+.sneakerShow,
+form #sneakerPreviewImage {
+    width: 18.75rem;
+}
+
+.content a {
+    color: black;
+}
+
+.content a:hover {
+    color: pink;
+}
+
+/* .sneakerShowTitle p:first-child {
+    width: 50%;
+    text-align: right;
+    padding-right: 5px;
+    
+}
+.sneakerShowTitle p:nth-child(2) {
+    width: 50%;
+    text-align: left;
+    padding: 0px;
+
+    
+} */
+
+/* logo container */
+
+.logoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+}
+
+.logoMini {
+    width: 4.375rem;
+}
+
+/* icons */
+
+footer a {
+    color: pink;
+}
+
+footer a:hover {
+    color: white;
+}
+
+/* login screen */
+
+.loginContainer .footer-button {
+    color: black;
+    background-color: pink;
+    border-color: black;
+    padding: 0.8rem 0.4rem;
+}
+
+.loginContainer .footer-button:hover {
+    color: white;
+    background-color: pink;
+    border-color: white;
+    padding: 0.8rem 0.4rem;
+}
+.loginContainer .card-header {
+    background-color: black;
+    color: pink;
+}
+
+.loginContainer .card-body {
+    border-color: black;
+}
+
+.loginContainer a {
+    color: black;
+}
+
+.loginContainer a:hover {
+    color: pink;
+}
+
+/* form */
+
+form .footer-button,
+.orderForm .footer-button,
+.content .footer-button {
+    color: black;
+    background-color: pink;
+    border-color: black;
+    margin-top: 10px;
+    padding: 0.8rem 0.4rem;
+}
+
+form .footer-button:hover,
+.orderForm .footer-button:hover,
+.content .footer-button:hover {
+    color: white;
+    background-color: pink;
+    border-color: white;
+    padding: 0.8rem 0.4rem;
+}
+
+.insertForm .form-control {
+    text-align: center;
+    left: 0.625rem;
+}
+
+.insertForm .form-control,
+.orderForm {
+    text-align: center;
+    width: 20%;
+    position: relative;
+    left: 40%;
+    margin-bottom: 1rem;
+}
+
+/* cart icon */
+/* 
+.cartIcon a {
+    color: pink;
+}
+
+.cartIcon a:hover {
+    color: black;
+}
+.cartIcon {
+    text-align: right;
+    margin-top: 0.625rem;
+    margin-right: 0.625rem;
+} */
+
+@media only screen and (max-width: 480px) {
+    nav {
+        position: relative !important;
+    }
+    nav div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sneakerStoreContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
